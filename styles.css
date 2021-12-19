@@ -1,19 +1,22 @@
 body {
     background-color: whitesmoke;
     color: black;
-    font-family:'Times New Roman', Times, serif;
+    font-family: 'Courier New', Courier, monospace;
     size: 18pt;
     
 }
 
 h2 {
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 36pt;
     font-weight: normal;
 }
 
-li {
-     list-style-type:none;
+ul > li {
+    font-weight: bold;
+    list-style-type:none;
+}
+
+ul > li li {
+    list-style-type:square;
 }
 
 .main {
@@ -21,3 +24,19 @@ li {
     width: auto;
     margin: auto;
 }
+
+a {
+  color: rgb(0, 47, 148);
+  text-decoration: none;
+}
+
+a:visited {
+  color:rgb(0, 47, 148);
+}
+
+a:hover {
+  background-color: rgb(0, 47, 148);
+    color: white;
+
+}
+
