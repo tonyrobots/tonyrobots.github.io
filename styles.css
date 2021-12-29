@@ -6,6 +6,17 @@ body {
     
 }
 
+img {  
+  max-width: 100%;  
+  height: auto;
+  
+}  
+
+.thumb {
+  max-width: 300px;
+  padding-right: 25px;
+}
+
 h2 {
     font-weight: normal;
 }
@@ -26,17 +37,29 @@ ul > li li {
 }
 
 a {
-  color: rgb(0, 47, 148);
+  color: rgb(3, 32, 97);
   text-decoration: none;
 }
 
 a:visited {
-  color:rgb(0, 47, 148);
+  color:rgb(3, 32, 97);
 }
 
 a:hover {
-  background-color: rgb(0, 47, 148);
+  background-color: rgb(3, 32, 97);
     color: white;
 
 }
+
+.gallery {
+  max-width: 1200px;
+  display: grid;
+  grid-gap: 25px;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.gallery img {
+  width: 100%;
+}
+
 
